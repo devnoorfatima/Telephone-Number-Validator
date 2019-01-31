@@ -6,8 +6,6 @@ function telephoneCheck(str) {
 const input = document.getElementById("input");
 
  function check(){
-     debugger;
-     console.log(input)
     let value = input.value;
     document.getElementById("p").innerHTML=telephoneCheck(value);
 }
